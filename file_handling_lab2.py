@@ -1,3 +1,4 @@
+print("******************Question :- 1 ******************************")
 import struct
 filename = "stu.dat"
 with open(filename, "wb") as file:
@@ -12,7 +13,7 @@ with open(filename, "wb") as file:
             break
 print("Data has been written to", filename)
 
-print("************************************************")
+print("*******************Question :- 2 *****************************")
 
 with open(filename, "rb") as file:
     while True:
@@ -24,7 +25,7 @@ with open(filename, "rb") as file:
         print(f"Roll Number: {rollno}, Name: {name}, Marks: {marks}")
 
 
-print("************************************************")
+print("*****************Question :- 3*******************************")
 
 print("Students having greater than 81 marks\n")
 with open(filename, "rb") as file:
