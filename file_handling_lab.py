@@ -1,3 +1,4 @@
+print("*******************Question :- 1 *****************************")
 word_to_search = "india"
 word_count = 0
 with open("india.txt", "r") as file:
@@ -8,7 +9,7 @@ with open("india.txt", "r") as file:
     word_count = words.count(word_to_search)
 print(f'The word "{word_to_search}" occurs {word_count} times in the file.\n')
 
-print("************************************************")
+print("****************Question :- 2 ********************************")
 
 with open("india.txt", "r") as file:
     lines = file.readlines()
@@ -17,7 +18,7 @@ for line in lines:
     if len(words) > 5:
         print(line.strip())
 
-print("************************************************")
+print("***************Question :- 3 *********************************")
 
 print("\nLetter starting with  I \n")
 letter_to_search = 'i'
